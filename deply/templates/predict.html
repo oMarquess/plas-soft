@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plas-AI</title>
+</head>
+
+<div style="; text-align: left; padding-left: 20px; padding: 10px">
+<img src="{{ url_for('static', filename='Ted.gif') }}" height="50px" width="50px" style="border-radius: 50px; background-color: #8BC6EC;
+background-image: linear-gradient(315deg, #8BC6EC 0%, #9599E2 100%);" >
+</div>
+<body style="background-color: #8BC6EC;background-image: linear-gradient(315deg, #8BC6EC 0%, #9599E2 100%);">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+
+
+
+
+
+<h1> {{ prediction_text }} <h1>
+
+
+
+
+
+
+<script src="{{ url_for('static', filename='dropzone.js')}}"></script>
+</body>
+</html>
